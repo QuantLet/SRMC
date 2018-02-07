@@ -1,0 +1,20 @@
+
+Name of Quantlet: SRMC_crix
+
+Published in: unpublished
+
+Description: 'Reform the crix data to get the log returns of CRIX with date and price'
+
+Keywords: 'cryptocurrency, benchmar index, time series, log returns, price'
+
+Author: Chengxiu Ling
+
+See also: 'SRMC_QQ_ME_crix, SRMC_Estimation_crix'
+
+Submitted: 07/02/2018 
+
+Input: 'SRMC_crix.json'
+
+Output: 'SRMC_crix, the log returns of CRIX'
+
+

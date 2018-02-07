@@ -1,0 +1,7 @@
+"","es.epsilon","es.mu","es.std"
+"period .normal",0.378,0.002,0.01
+"period .Laplace",0.622,0.004,0.045
+"period.1 .normal",0.52,0.001,0.014
+"period.1 .Laplace",0.48,-0.002,0.045
+"period.2 .normal",0.286,0.002,0.006
+"period.2 .Laplace",0.714,0.008,0.045

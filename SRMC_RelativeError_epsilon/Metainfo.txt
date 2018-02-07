@@ -1,0 +1,18 @@
+
+Name of Quantlet: SRMC_RelativeError_epsilon
+
+Published in: Sensitivity_RiskMeasure_HuberContamination
+
+Description: 'Shows small relative error of VaR, ES with the estimation given by the influence function and small epsilon'
+
+Keywords: 'influence function, relative error, normal distribution, Laplace, heavy tail, Huber contamination'
+
+Author: Chengxiu Ling
+
+See also: 'SRMC_crix, SRMC_Estimation_crix'
+
+Submitted: 07/02/2018
+
+Input: 'SRMC_crix.csv'
+
+Output: 'Table 1, Give VaR, ES and its relative error with alpha = rep(0.25, 3) and scale = c(2, 1.2, 1)'
