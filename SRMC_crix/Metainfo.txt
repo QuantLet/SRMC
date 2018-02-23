@@ -1,20 +1,22 @@
 
 Name of Quantlet: SRMC_crix
 
-Published in: unpublished
+Published in: SRMC
 
-Description: 'Reform the crix data to get the log returns of CRIX with date and price'
+Description: 'Use a GARCH(1,1) model and a constant mean to standardize the data input, the log returns of CRIX'
 
-Keywords: 'cryptocurrency, benchmar index, time series, log returns, price'
+Keywords: 'cryptocurrency, GARCH, heavy-tailed, heteroskedasticity, nonstationary, preprocessing, returns, standardization, variance'
 
 Author: Chengxiu Ling
 
 See also: 'SRMC_QQ_ME_crix, SRMC_Estimation_crix'
 
-Submitted: 07/02/2018 
+Submitted: 15/02/2018 
 
 Input: 'SRMC_crix.json'
 
-Output: 'SRMC_crix, the log returns of CRIX'
+Output: 'SRMC_crix, the log returns of CRIX as a data.frame with date and 
+
+price'
 
 
