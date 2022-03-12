@@ -17,7 +17,7 @@ library("rjson")
 library(fGarch)
 
 # Get the daily log return of crix price 
-crix      = fromJSON("SRMC_crix.json")
+crix=read.csv(file = 'SRMC_crix') 
 price.log.return  = diff(log(crix$price))
 price.log.return  = na.omit(price.log.return)
 
