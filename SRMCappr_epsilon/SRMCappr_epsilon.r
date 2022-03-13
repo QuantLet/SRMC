@@ -32,7 +32,7 @@ mix_cdf = function(x, index, epsilon, scale) {
     if (index == "Normal") {
         mix_cdf = (1 - epsilon) * pnorm(x) + epsilon * pnorm(x/scale)
     } else if (index == "Laplace") {
-        mix_cdf = (1 - epsilon) * pnorm(x) + epsilon * plaplacex/scale)
+        mix_cdf = (1 - epsilon) * pnorm(x) + epsilon * plaplace(x/scale)
     } else {
         mix_cdf = (1 - epsilon) * pnorm(x) + epsilon * ppower(x/scale)
     }
@@ -108,6 +108,8 @@ mix_ES_epsilon = function(epsilon, index, alpha, scale) {
 # Give the theoretical values and its approximations of VaR, ES and level ratio for epsilon-contamination model at alpha level
 approximation.VaR.ES.epsilon = function(epsilon, index, scale, alpha) {
     Theoretical_VaR.ES.EQT = matrix(rep(1, size.epsilon * size.index * 3), nrow = size.epsilon)
+    size.epsilon = length(epsilon)
+    size.index = length(index)
     Approximation_VaR.ES.EQT = matrix(rep(1, size.epsilon * size.index * 3), nrow = size.epsilon)
     colnames(Theoretical_VaR.ES.EQT) = paste(c(rep("VaR of", size.index), rep("ES of", 
         size.index), rep("Level ratio of", size.index)), rep(index, 3))
