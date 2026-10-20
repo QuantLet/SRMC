@@ -11,7 +11,7 @@ Published in: unpublished
 
 Description: Shows the approximations of VaR, ES and level ratio of expectile vs. quantile with varying epsilon and given alpha
 
-Keywords: normal mixture, Laplace, heavy tail, approximation, Expected shortfall, VaR, expectile, 
+Keywords: normal mixture, Laplace, heavy tail, approximation, Expected shortfall, VaR, expectile,
 
 Author: Chengxiu Ling
 
@@ -20,14 +20,14 @@ See also: SRMCappr_alpha,  SRMCappr_epsilon_alpha
 Submitted: 07/02/2018
 
 Input: 
-- alpha: 'the probability level vector for VaR and ES
-- index: 'any subset of (''Normal'', ''Laplace'', ''Power-like''), indicating the choice of contamination model
-- scale: 'the scale vector of the index function
-- epsilon: 'the contamination level vector
+- alpha: 'the probability level vector for VaR and ES'
+- index: 'any subset of (''Normal'', ''Laplace'', ''Power-like''), indicating the choice of contamination model'
+- scale: 'the scale vector of the index function'
+- epsilon: 'the contamination level vector'
 
 Output: Approximations and its theoretical values of VaR, ES and level ratio of expectile vs. quantile with varying alpha
 
-Example: SRMCappr_epsilon.png, plot of approximations of VaR, ES and w_alpha / alpha with alpha = (0.5%, 0.5%, 0.5%),
+Example: SRMCappr_epsilon.png, plot of approximations of VaR, ES and w_alpha / alpha with alpha = (0.5%, 0.5%, 0.5%), and scale = (1.5, 1.5, 1) for normal, Laplace and Power-like contaminations
 
 ```
 <div align="center">
