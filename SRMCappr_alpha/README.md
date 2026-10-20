@@ -20,15 +20,15 @@ See also: SRMCappr_epsilon, SRMCappr_epsilon_alpha
 Submitted: 07/02/2018
 
 Input: 
-- alpha: 'the probability level vector for VaR and ES
-- index: 'any subset of (''Normal'', ''Laplace'', ''Power-like''), indicating the choice of contamination model
-- scale: 'the scale vector of the contamination model indicated by index
-- epsilon: 'the contamination level vector
+- alpha: 'the probability level vector for VaR and ES'
+- index: 'any subset of (''Normal'', ''Laplace'', ''Power-like''), indicating the choice of contamination model'
+- scale: 'the scale vector of the contamination model indicated by index'
+- epsilon: 'the contamination level vector'
 
 Output: Approximations and its theoretical values of VaR, ES and level ratio of expectile vs. quantile with varying alpha
 
 Example: 
-- 'SRMCappr_alpha.png, plot of the approximations of VaR, ES and w_alpha / alpha with contamination level epsilon = (0.5, 0.5, 0.5),
+- SRMCappr_alpha.png, plot of the approximations of VaR, ES and w_alpha / alpha with contamination level epsilon = (0.5, 0.5, 0.5), and scale = (1.6, 1.6, 1) for normal, Laplace and Power-like contaminations
 
 ```
 <div align="center">
