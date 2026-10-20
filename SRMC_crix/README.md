@@ -21,7 +21,7 @@ Submitted: 15/02/2018
 
 Input: SRMC_crix.json
 
-Output: SRMC_crix, the log returns of CRIX as a data.frame with date and
+Output: SRMC_crix, the log returns of CRIX as a data.frame with date and price
 
 ```
 <div align="center">
