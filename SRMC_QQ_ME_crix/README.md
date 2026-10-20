@@ -20,14 +20,14 @@ See also: SRMC_crix, SRMC_Estimation_crix
 Submitted: 07/02/2018
 
 Input: 
-- alpha:  'the probability level vector for VaR and ES
-- index: 'any subset of  c(Normal, Laplace, Power-like), indicating the choice of contamination model
-- scale: 'the scale vector of the contamination model indicated by index
-- epsilon: 'small contamination level vector
+- alpha:  'the probability level vector for VaR and ES'
+- index: 'any subset of  c(Normal, Laplace, Power-like), indicating the choice of contamination model'
+- scale: 'the scale vector of the contamination model indicated by index'
+- epsilon: 'small contamination level vector'
 
 Output: 
-- 1: 'SRMC_QQ_ME_crix_1.png, times series of CRIX and Q-Q normal plot
-- 2: 'SRMC_QQ_ME_crix_2.png, mean excess function and log mean excess function
+- 1: 'SRMC_QQ_ME_crix_1.png, times series of CRIX and Q-Q normal plot'
+- 2: 'SRMC_QQ_ME_crix_2.png, mean excess function and log mean excess function'
 
 ```
 <div align="center">
